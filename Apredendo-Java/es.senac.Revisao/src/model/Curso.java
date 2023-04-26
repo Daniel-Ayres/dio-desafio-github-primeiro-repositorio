@@ -60,7 +60,7 @@ public class Curso {
         this.gratuito = gratuito;
     }
 
-    public void add(Curso curso) {
+    public void setGratuito(String sim) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

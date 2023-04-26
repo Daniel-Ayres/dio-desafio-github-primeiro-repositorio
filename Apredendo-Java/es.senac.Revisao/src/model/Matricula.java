@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package model;
 
 import java.util.Date;
@@ -11,17 +7,17 @@ import java.util.Date;
 public class Matricula {
     private int idMatricula;
     private int idAluno;
-    private int idCurso;
+    private int idTurma;
     private double valor;
     private Date dataMatricula;
 
     public Matricula() {
     }
 
-    public Matricula(int idMatricula, int idAluno, int idCurso, double valor, Date dataMatricula) {
+    public Matricula(int idMatricula, int idAluno, int idTurma, double valor, Date dataMatricula) {
         this.idMatricula = idMatricula;
         this.idAluno = idAluno;
-        this.idCurso = idCurso;
+        this.idTurma = idTurma;
         this.valor = valor;
         this.dataMatricula = dataMatricula;
     }
@@ -42,12 +38,12 @@ public class Matricula {
         this.idAluno = idAluno;
     }
 
-    public int getIdCurso() {
-        return idCurso;
+    public int getIdTurma() {
+        return idTurma;
     }
 
-    public void setIdCurso(int idCurso) {
-        this.idCurso = idCurso;
+    public void setIdTurma(int idTurma) {
+        this.idTurma = idTurma;
     }
 
     public double getValor() {
@@ -65,6 +61,5 @@ public class Matricula {
     public void setDataMatricula(Date dataMatricula) {
         this.dataMatricula = dataMatricula;
     }
-
- 
+    
 }

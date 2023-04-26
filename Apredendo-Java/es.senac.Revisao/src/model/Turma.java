@@ -64,8 +64,8 @@ public class Turma {
         return idProfessor;
     }
 
-    public void setIdProfessor(int idProssefor) {
-        this.idProfessor = idProssefor;
+    public void setIdProfessor(int idProfessor) {
+        this.idProfessor = idProfessor;
     }
 
     public String getStatus() {

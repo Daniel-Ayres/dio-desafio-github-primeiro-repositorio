@@ -2,10 +2,6 @@
 package model;
 
 public class Professor {
-
-    public static void add(Professor prof) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     private int idProfessor;
     private String nome;
     private String area;
@@ -18,12 +14,13 @@ public class Professor {
     public Professor() {
     }
 
-    public Professor(int idProfessor, String nome, String area, String telefone, String email ,String formacao) {
+    public Professor(int idProfessor, String nome, String area, String telefone, String email, String formacao) {
         this.idProfessor = idProfessor;
         this.nome = nome;
         this.area = area;
         this.telefone = telefone;
         this.email = email;
+        this.formacao = formacao;
     }
 
     public int getIdProfessor() {
@@ -65,7 +62,7 @@ public class Professor {
     public void setEmail(String email) {
         this.email = email;
     }
-    
+
     public String getFormacao() {
         return formacao;
     }
@@ -73,4 +70,6 @@ public class Professor {
     public void setFormacao(String formacao) {
         this.formacao = formacao;
     }
+    
+    
 }

@@ -23,7 +23,7 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Matricula"/>
+                <Property name="text" type="java.lang.String" value="Matr&#xed;cula"/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4">
@@ -38,7 +38,7 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Rel&#xe1;torio"/>
+                <Property name="text" type="java.lang.String" value="Relat&#xf3;rio"/>
               </Properties>
             </MenuItem>
           </SubComponents>
@@ -98,12 +98,12 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="587" max="32767" attributes="0"/>
+          <EmptySpace min="0" pref="983" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="464" max="32767" attributes="0"/>
+          <EmptySpace min="0" pref="455" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>

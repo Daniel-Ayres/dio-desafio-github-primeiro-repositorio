@@ -1,9 +1,3 @@
-/**
- * 
- */
-/**
- * @author User
- *
- */
-module primeiro_programa_java {
+
+module primeiro_projeto {
 }

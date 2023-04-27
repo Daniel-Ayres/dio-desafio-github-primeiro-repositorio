@@ -1,20 +1,20 @@
-package br.com.dio.model;
+package com.dio.model;
 
 import java.util.Objects;
 
 public class Gato {
+
 	private String nome;
 	private String cor;
 	private Integer idade;
+
+	public Gato() {
+	}
 
 	public Gato(String nome, String cor, Integer idade) {
 		this.nome = nome;
 		this.cor = cor;
 		this.idade = idade;
-	}
-
-	public Gato() {
-
 	}
 
 	public String getNome() {
@@ -56,6 +56,11 @@ public class Gato {
 			return false;
 		Gato other = (Gato) obj;
 		return Objects.equals(cor, other.cor) && Objects.equals(idade, other.idade) && Objects.equals(nome, other.nome);
+	}
+
+	@Override
+	public String toString() {
+		return "Gato [nome=" + nome + ", cor=" + cor + ", idade=" + idade + "]";
 	}
 
 }
